@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lugrasimo&family=Poppins:wght@800&family=Single+Day&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+    font-family: sans-serif;
+}
+.outer{
+    
+    background-image: linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(63, 0, 125) 100%);
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    color: #fff;
+    scroll-behavior: smooth;
+  }
+  
+.bappa{
+    font-size: 40px;
+    letter-spacing: 10.5px;
+    color:rgba(255, 255, 255, 0.873) ;
+}
+.bappa:hover{
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgb(202, 150, 255);
+}
+.one-liner{
+    color:#848484;
+    font-size: 20px;
+    letter-spacing: 8.5px;
+}
+.mainbody{
+    margin-top: 100px;
+    display:flex;
+    justify-content: space-between;
+    padding: 50px;
+    color:rgba(255, 255, 255, 0.873) ;
+
+}
+
+.intro-img img{
+    height:400px;
+    width:400px;
+    border-radius: 50%;
+    border:solid rgb(202, 150, 255) 8px;
+    box-shadow: 0 0 10px 10px rgba(122, 34, 210, 0.758);
+}
+.intro-text{
+    padding-left: 50px;
+    padding-right: 80px;
+    padding-top: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.buttons{
+margin-top: 50px;
+color:rgb(202, 150, 255);
+}
+
+.buttons button{
+    padding: 20px 40px;
+    font-size: 15px;
+    border-radius:5px;
+    background-color:rgb(39, 0, 80);
+    border: solid rgb(197, 143, 252) 2px ;
+    color:rgba(104, 0, 207, 0.758);
+    transition: box-shadow 0.3s ease;
+}
+.buttons button:hover{
+    cursor: pointer;
+    background-color: rgb(202, 150, 255);
+    box-shadow: 0 0 10px 7px rgba(104, 0, 207, 0.758);
+    color: rgba(104, 0, 207, 0.758);
+}
+.buttons a{
+    text-decoration: none;
+}
+.buttons a:hover{
+    color: rgba(104, 0, 207, 0.758); 
+}
+.buttons a:visited{
+    color: rgba(104, 0, 207, 0.758); 
+}
+.HIRE{
+    margin-right: 30px;
+}
+.contact{
+    color: rgba(104, 0, 207, 0.758);
+}
+.contact-me ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.contact-me ul li{
+    margin:20px;
+}
+.contact-me ul li a{
+    color: rgb(184, 119, 250); 
+}
+.contact-me ul li a:active{
+    color:rgb(202, 150, 255);
+}
+.contact-me ul li a:hover{
+    color: rgba(104, 0, 207, 0.758);
+}
+.contact-me{
+    background-color:rgb(39, 0, 80);
+    border:none;
+    width:450px;
+    margin-left: 550px;
+    border-radius: 40px;
+}
+
+.contact-me:hover{
+    cursor: pointer;
+    background-color: rgb(202, 150, 255);
+    box-shadow: 0 0 10px 7px rgba(104, 0, 207, 0.758);
+}
+
+.top-heading{
+    background: rgb(202, 150, 255);
+    z-index: 99;
+    top: 0;
+    display:flex;
+    justify-content: center;
+    padding:40px 50px;
+    box-shadow: 0 0 20px rgb(202, 150, 255);
+    border-bottom-right-radius:20px ;
+    border-bottom-left-radius:20px ;
+    transform: translateY(-70px);
+    
+    cursor:pointer;
+    transition:transform 1s ease-in-out;
+}
+.top-heading:hover{
+    transform: translateY(0px);
+}
+.top-heading ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.top-heading ul li a{
+    margin:10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(104, 0, 207, 0.758);
+}
+.top-heading ul li a:active{
+    color:rgba(104, 0, 207, 0.758);
+}
+
+
+.skills{
+    padding: 97px;
+    font-family: sans-serif;
+}
+.skills h3{
+    margin-bottom: 15px;
+}
+.skills ol li{
+    font-size: 20px;
+    line-height: 25px;
+}
+.projects{
+    padding: 97px;
+}
+.projects h3{
+    margin-bottom: 10px;
+}
+.pro{
+    display: flex;
+}
+.pro-img img{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+
+}
+.pro-img img:hover{
+    border:solid rgb(202, 150, 255) 5px;
+    box-shadow: 0 0 10px 7px rgba(104, 0, 207, 0.758);
+    border-radius: 20px;
+}
+.pro-info{
+margin-right:300px ;
+margin-left:30px ;
+font-size: 20px;
+padding: 30px;
+}
+
+.pro-info:hover{
+    border:solid rgb(202, 150, 255) 5px;
+    box-shadow: 0 0 10px 7px rgba(104, 0, 207, 0.758);
+    border-radius: 20px;
+}
+
+.stories{
+    padding: 97px;
+}
+
+.stories ul li {
+    list-style: none;
+}
+.stories ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 25px;
+}
